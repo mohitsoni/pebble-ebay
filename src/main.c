@@ -123,7 +123,7 @@ void handle_init(AppContextRef ctx) {
 
   text_layer_init(&textLayer, window.layer.frame);
   text_layer_set_text(&textLayer, "eBay Deals");
-  text_layer_set_font(&textLayer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
+  text_layer_set_font(&textLayer, fonts_get_system_font(FONT_KEY_GOTHIC_24_BOLD));
   layer_add_child(&window.layer, &textLayer.layer);
 
   // Attach our desired button functionality
